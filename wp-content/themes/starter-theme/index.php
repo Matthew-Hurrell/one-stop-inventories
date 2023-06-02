@@ -4,7 +4,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
     <!-- Title and Permalink -->
-    <h2 class="text-4xl"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+    <h2 class="text-4xl text-red-500"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
     <!-- Content -->
     <?php the_content(); ?>
