@@ -1,0 +1,5 @@
+# Node Modules
+/wp-content/themes/starter-theme/node_modules
+
+# Uploads
+/wp-content/uploads
