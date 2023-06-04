@@ -5,10 +5,11 @@
 </head>
 <body>
 
-<div class="bg-grey-50 w-full h-20 px-5">
-    <div class="flex justify-between items-center container mx-auto">
-        <div class="h-16">
-            <img class="object-center object-contain h-full" src="<?php echo get_theme_file_uri('/assets/one-stop-inventories.logo.png') ?>" alt="">
-        </div>
+<header class="bg-grey-50 w-full px-10 py-3 shadow-md">
+    <div class="flex justify-between items-center">
+        <a href="<?php echo site_url(); ?>" aria-label="Homepage">
+            <img class="h-12" src="<?php echo get_theme_file_uri('/assets/images/one-stop-inventories-logo-cropped.png') ?>" alt="One Stop Inventories Logo">
+        </a>
+        <?php wp_nav_menu('Main Site Navigation'); ?>
     </div>
-</div>
+</header>

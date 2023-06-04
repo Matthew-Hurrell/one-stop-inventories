@@ -5,6 +5,7 @@
 
         // Custom Styles
         wp_enqueue_style('onestopinventories_main_styles', get_theme_file_uri('output.css'));
+        wp_enqueue_style('onestopinventories_app_styles', get_theme_file_uri('app.css'));
     }
 
     add_action('wp_enqueue_scripts', 'wp_enqueue_custom_files');

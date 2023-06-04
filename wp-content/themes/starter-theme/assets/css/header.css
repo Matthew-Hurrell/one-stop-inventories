@@ -1,0 +1,21 @@
+#menu-main-site-navigation {
+    display: flex;
+    column-gap: 30px;
+    color: #2a2a2a;
+}
+
+#menu-main-site-navigation li {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+#menu-main-site-navigation li:hover {
+    display: flex;
+    column-gap: 30px;
+    color: #0284c7;
+    text-decoration: underline;
+    text-decoration-color: #0284c7;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
