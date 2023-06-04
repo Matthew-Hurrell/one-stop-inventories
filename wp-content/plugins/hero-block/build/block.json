@@ -7,6 +7,20 @@
   "category": "custom-category",
   "icon": "admin-comments",
   "description": "Hero block with large background image.",
+  "attributes": {
+    "heading_one": {
+      "type": "string",
+      "default": "HELLO WORLD"
+    },
+    "heading_two": {
+      "type": "string",
+      "default": "HELLO AGAIN"
+    },
+    "button": {
+      "type": "string",
+      "default": "Find out more"
+    }
+  },
   "supports": {
     "html": false
   },
