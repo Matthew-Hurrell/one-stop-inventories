@@ -219,7 +219,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/hero-block","version":"0.1.0","title":"Hero Block","category":"custom-category","icon":"smiley","description":"Hero block with large background image.","supports":{"html":false},"textdomain":"hero-block","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"create-block/hero-block","version":"0.1.0","title":"Hero Block","category":"custom-category","icon":"admin-comments","description":"Hero block with large background image.","supports":{"html":false},"textdomain":"hero-block","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ })
 

@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "title": "Hero Block",
   "category": "custom-category",
-  "icon": "smiley",
+  "icon": "admin-comments",
   "description": "Hero block with large background image.",
   "supports": {
     "html": false
